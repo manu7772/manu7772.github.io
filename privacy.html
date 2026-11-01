@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Confidentialité Synchro Drive</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<h1>Règles de confidentialité — Synchro Drive Aequation</h1>
+<p class="muted">Dernière mise à jour : 1er novembre 2026</p>
+
+<h2>1. Présentation</h2>
+<p>« Synchro Drive Aequation » (ci-après « l'application ») est une application personnelle, non commerciale, qui synchronise un dossier local avec un dossier du compte Google Drive de son propriétaire, à l'aide de l'outil open source rclone. Elle est éditée et utilisée exclusivement par Aequation (<a href="https://aequation.fr">aequation.fr</a>).</p>
+
+<h2>2. Données Google auxquelles l'application accède</h2>
+<p>Avec l'autorisation explicite de l'utilisateur (écran de consentement Google, champ d'application <code>https://www.googleapis.com/auth/drive</code>), l'application accède :</p>
+<ul>
+<li>à la liste des fichiers et dossiers du Google Drive de l'utilisateur (noms, tailles, dates de modification, empreintes) ;</li>
+<li>au contenu de ces fichiers, uniquement pour les télécharger vers l'ordinateur de l'utilisateur ou les envoyer depuis celui-ci.</li>
+</ul>
+
+<h2>3. Utilisation des données</h2>
+<p>Ces données sont utilisées pour une seule finalité : maintenir une copie identique d'un dossier entre l'ordinateur de l'utilisateur et son propre Google Drive. Elles ne sont ni analysées, ni utilisées à des fins publicitaires, ni utilisées pour entraîner des modèles d'intelligence artificielle.</p>
+
+<h2>4. Stockage et sécurité</h2>
+<p>L'application ne possède aucun serveur. Les fichiers transitent directement entre les serveurs de Google et l'ordinateur de l'utilisateur, via des connexions chiffrées (HTTPS). Le jeton d'autorisation OAuth est stocké uniquement sur l'ordinateur de l'utilisateur, dans le fichier de configuration local de rclone.</p>
+
+<h2>5. Partage des données</h2>
+<p>Aucune donnée n'est vendue, partagée ou transmise à des tiers. Aucune donnée n'est collectée par l'éditeur.</p>
+
+<h2>6. Conformité</h2>
+<p>L'utilisation et le transfert vers toute autre application des informations reçues des API Google respectent les <a href="https://developers.google.com/terms/api-services-user-data-policy">Règles relatives aux données utilisateur des services API Google</a>, y compris les exigences d'utilisation limitée (Limited Use).</p>
+
+<h2>7. Conservation et suppression</h2>
+<p>L'application ne conserve aucune donnée en dehors de l'ordinateur et du Google Drive de l'utilisateur. L'utilisateur peut révoquer l'accès à tout moment depuis <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, puis supprimer la configuration locale de rclone.</p>
+
+<h2>8. Contact</h2>
+<p>Pour toute question : via le site <a href="https://aequation.fr">aequation.fr</a>.</p>
+</body></html>
